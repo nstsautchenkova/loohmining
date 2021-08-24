@@ -1494,6 +1494,7 @@ td {
     font-weight: 500;
     color: var(--color-gray);
     letter-spacing: 0.1em;
+    background: transparent;
 }
 
 .calculator__rezult-year {
@@ -2938,7 +2939,7 @@ form textarea.form-control:focus:-ms-input-placeholder {
     .header__row:before {
         content: '';
         display: block;
-        width: calc(100% - 56px);
+        width: 100%;
         height: 100%;
         position: absolute;
         background: var(--color-blue);
